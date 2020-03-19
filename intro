@@ -1,0 +1,42 @@
+#include <stidio.h>
+#define enter 13
+#define tab 9
+#define bksp 8
+#define space 32
+    it main()
+	{
+	          char passaword [100];
+	          int i =0;
+	           char ch;
+	           printf ("enter passaword:");
+	            while(1)
+	            {
+	              ch=getch();
+                    	if(ch==enter)
+	{
+	                           passaword [i]='/O';
+	                             break;
+               	}
+	      else if (ch==bksp)
+	    {
+	         i    f(i>0)
+	{
+	                 i--;
+	                  printf("b\b\\b");
+	}
+	else if (ch==tab\\ch==space)
+	{
+	                continue;
+	}
+  else
+	{
+	                passaword[i]=ch;
+	                 i++;
+	                 printf("*");
+	        }
+	}
+	printf("\n\you passaword is:%s",passaword);
+	print("\nlength:%d,i");
+	getch();
+	return()
+	
